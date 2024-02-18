@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a{
+   color: white;
+}
+body{
+    font-size: 16px;
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    margin: 0 8rem;
+}
+ section{
+    display: flex;
+ }
+ div:nth-last-child(2){
+    width: 40%;
+    margin-top: 250px;
+    margin-right: 5rem;
+    color: white;
+ }
+ div:nth-last-child(1){
+    margin-top: 7rem;
+    width: 40%;
+ }
+ h1{
+    font-size: 50px;
+ }
+ p{
+    width: 90%;
+ }
+ span{
+    color: red;
+ }
+ h4{
+    background-color: hsl(248, 32%, 49%);
+    padding: 20px;
+    border-radius: 10px;
+    color: white ;
+    text-align: center;
+    margin-bottom: 2rem;
+ }
+ form{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+
+ }
+ input{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    
+ }
+ form p:last-child{
+   font-size: 10px;
+ }
+ input:focus::placeholder {
+   color: transparent;
+ }
+ 
+ button{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 10px;
+    background-color:  hsl(154, 59%, 51%);
+    border: none;
+ }
+ .error{
+   color: red;
+   text-align: right;
+   position: relative;
+   top: -15px;
+ }
+ @media screen and (max-width: 768px){
+   body{
+      margin: 0 2rem;
+   }
+   section{
+      display: block;
+   }
+   div:nth-last-child(2){
+      width: 100%;
+      margin-top: 30px;
+      margin-right: 0;
+   }
+   div:nth-last-child(1){
+      margin-top: 2rem;
+      width: 100%;
+   }
+   h1{
+      font-size: 35px;
+   }
+   p{
+      width: 100%;
+   }
+   h4{
+      padding: 10px;
+      font-size: 25px;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 2rem;
+      width: 100%;
+   }
+ }
